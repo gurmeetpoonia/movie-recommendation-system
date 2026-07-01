@@ -1,0 +1,155 @@
+
+
+    /* Main App Background Override */
+    .stApp {
+        background-color: #0b0f19;
+        color: #e2e8f0;
+    }
+
+    /* Hero Section - Neon Glassmorphism */
+    .hero {
+        background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+        padding: 2.5rem 1.5rem;
+        border-radius: 16px;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        border: 2px solid rgba(59, 130, 246, 0.3);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.15), inset 0 0 15px rgba(59, 130, 246, 0.1);
+    }
+    .hero h1 {
+        color: #ffffff !important;
+        font-weight: 800;
+        font-size: 2.5rem !important;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    }
+    .hero p {
+        color: #94a3b8;
+        font-size: 1.15rem;
+        font-weight: 400;
+    }
+
+    /* Section Subheaders */
+    h3 {
+        color: #3b82f6 !important;
+        font-weight: 600 !important;
+        border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+        padding-bottom: 8px;
+    }
+
+    /* Streamlit Components Customization (Inputs & Buttons) */
+    div[data-testid="stForm"] {
+        background-color: #111827;
+        border: 1px solid #1f2937;
+    }
+    
+    /* Movie Card Container - Premium Glowing Border */
+    .movie-card {
+        background: rgba(17, 24, 39, 0.85);
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+    }
+    
+    /* Card Hover Effect - Lift and Glow */
+    .movie-card:hover {
+        transform: translateY(-8px);
+        border-color: rgba(249, 115, 22, 0.5); /* Orange accent glow on hover */
+        box-shadow: 0 15px 30px rgba(249, 115, 22, 0.15);
+    }
+
+    /* Aspect Ratio Fixed Movie Poster */
+    .movie-poster-img {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+        background-color: #0f172a;
+        transition: transform 0.5s ease;
+    }
+    .movie-card:hover .movie-poster-img {
+        transform: scale(1.03);
+    }
+
+    /* Details Wrapper inside Card */
+    .movie-info {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 6px;
+    }
+
+    /* Title Styling */
+    .movie-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #ffffff !important;
+        margin-bottom: 6px;
+        line-height: 1.4;
+        min-height: 2.8rem;
+        display: -webkit-box;
+       
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    /* Metrics & Badges */
+    .score, .genre {
+        font-size: 0.85rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+    
+    .score {
+        color: #f59e0b; /* Golden Yellow for Hybrid Score */
+        font-weight: 600;
+    }
+    
+    .genre {
+        color: #94a3b8;
+    }
+
+    /* Cinematic Watch Trailer Button */
+    .trailer-btn {
+        display: block;
+        text-align: center;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); /* Orange Cyberpunk Gradient */
+        color: #ffffff !important;
+        padding: 10px 14px;
+        border-radius: 8px;
+        text-decoration: none !important;
+        font-weight: 600;
+        font-size: 0.85rem;
+        margin-top: auto; 
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(234, 88, 12, 0.2);
+    }
+
+    .trailer-btn:hover {
+        background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+        box-shadow: 0 6px 18px rgba(249, 115, 22, 0.4);
+        transform: translateY(-1px);
+    }
+
+    /* Smooth adjustments for native Streamlit Widgets to fit Dark Theme */
+    .stButton>button {
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        transition: all 0.3s !important;
+    }
+    .stButton>button:hover {
+        box-shadow: 0 0 15px rgba(249, 115, 22, 0.4) !important;
+        transform: translateY(-2px);
+    }
