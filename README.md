@@ -23,6 +23,7 @@ A modern **Hybrid Movie Recommendation System** built with **Python, Streamlit, 
 Experience the Movie Recommendation System directly in your browser.
 
 **🔗 Live App:** https://movie-recommendation-system-rcb.streamlit.app/
+
 ---
 ## 🛠️ Tech Stack
 
