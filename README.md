@@ -25,6 +25,21 @@ Experience the Movie Recommendation System directly in your browser.
 **🔗 Live App:** https://movie-recommendation-system-rcb.streamlit.app/
 
 ---
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+```
+assets/png1.png
+```
+
+### Movie Recommendation
+
+```
+assets/png2.png
+```
 ## 🛠️ Tech Stack
 
 - Python
