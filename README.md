@@ -31,15 +31,12 @@ Experience the Movie Recommendation System directly in your browser.
 
 ### Dashboard
 
-```
-assets/png1.png
-```
+![Dashboard](assets/png1.png)
 
 ### Movie Recommendation
 
-```
-assets/png2.png
-```
+![Movie Recommendation](assets/png2.png)
+
 ## 🛠️ Tech Stack
 
 - Python
