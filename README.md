@@ -31,15 +31,11 @@ Experience the Movie Recommendation System directly in your browser.
 
 ### Dashboard
 
-> Add screenshot here
-
 ```
 assets/png1.png
 ```
 
 ### Movie Recommendation
-
-> Add screenshot here
 
 ```
 assets/png2.png
